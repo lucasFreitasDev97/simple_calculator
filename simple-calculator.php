@@ -31,38 +31,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
         echo "Please, insert valid numbers.";
     }
 }
-
-
-//if ($_SERVER["REQUEST_METHOD"] == "POST") {
-//    $numero1 = $_POST['numero1'];
-//    $numero2 = $_POST['numero2'];
-//    $operacao = $_POST['operacao'];
-//
-//    // Verifica se os números foram fornecidos e são válidos
-//    if (is_numeric($numero1) && is_numeric($numero2)) {
-//        switch ($operacao) {
-//            case '+':
-//                $resultado = $numero1 + $numero2;
-//                break;
-//            case '-':
-//                $resultado = $numero1 - $numero2;
-//                break;
-//            case '*':
-//                $resultado = $numero1 * $numero2;
-//                break;
-//            case '/':
-//                if ($numero2 != 0) {
-//                    $resultado = $numero1 / $numero2;
-//                } else {
-//                    $resultado = "Erro: Divisão por zero não é permitida.";
-//                }
-//                break;
-//            default:
-//                $resultado = "Operação inválida";
-//        }
-//
-//        echo "Resultado: " . $resultado;
-//    } else {
-//        echo "Por favor, insira números válidos.";
-//    }
-//}
